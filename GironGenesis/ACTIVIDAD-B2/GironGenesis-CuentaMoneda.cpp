@@ -11,7 +11,7 @@ int main()
 cout<<"Ingrese el valor de la moneda (0.10,0.25) :";
 cin>>x;
 c=c+1;
-a=+x;
+a=a+x;
 if(x==0.10){
 	c1=c1+1;
 	a1=a1+x;

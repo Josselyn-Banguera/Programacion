@@ -24,6 +24,6 @@ int main()
 		a=aa-an;
 	}
 	a=aa-an;
-        cout<<"Usted tiene: " <<a<< "años" <<m<< "mese" <<d<< "y" <<d<< "dias";
+cout<<"Usted tiene: " <<a<< "años" <<m<< "meses" "y" <<d<< "dias";
 	return(0);
 }

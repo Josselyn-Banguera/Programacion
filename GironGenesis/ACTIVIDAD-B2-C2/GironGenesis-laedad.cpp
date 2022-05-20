@@ -37,5 +37,5 @@ cout<<"//====Fecha de elaboración: 02-05-2022"<<endl;
 cout<<"//====Fecha de última actualización: 19-05-2022"<<endl;
 
 cout<<"Usted tiene: " <<GG_a<< "años" <<GG_m<< "meses" "y" <<GG_d<< "dias";
-return(0);
+ return(0);
 }

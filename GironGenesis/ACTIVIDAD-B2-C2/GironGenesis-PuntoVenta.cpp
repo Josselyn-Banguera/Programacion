@@ -30,7 +30,11 @@ cout<<"Su compra aplica para un descuento: "<<GG_tb<<endl;
 }else{
 	GG_vf=GG_a+GG_viva-GG_vdes;
 
-cout<<"//=======Nombre del programa: PUNTO VENTA"<<endl;   cout<<"//====Archivo: GironGenesis-PuntoVenta.cpp "<<endl; cout<<"//====Autor: Giron Genesis "<<endl;                 cout<<"//====Fecha de elaboración: 02-05-2022 "<<endl;     cout<<"//====Fecha de última actualización: 19-05-2022 "<<endl;
+cout<<"//=======Nombre del programa: PUNTO VENTA"<<endl;
+cout<<"//====Archivo: GironGenesis-PuntoVenta.cpp "<<endl;
+cout<<"//====Autor: Giron Genesis "<<endl;
+cout<<"//====Fecha de elaboración: 02-05-2022 "<<endl;
+cout<<"//====Fecha de última actualización: 19-05-2022 "<<endl;
 cout<<"El valor final es de:$ "<<GG_vf<<endl;
 }
 return 0;

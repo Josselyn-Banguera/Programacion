@@ -1,7 +1,8 @@
 ////=======Nombre del programa: SUMA DE DOS NÚMEROS
 //====Archivo: GironGenesis-SumaN.cpp
 //====Autor: Giron Genesis
-//====Fecha de elaboración: 02-05-2022                     //====Fecha de última actualización: 19-05-2022
+//====Fecha de elaboración: 02-05-2022
+////====Fecha de última actualización: 19-05-2022
 
 #include<iostream>
 using namespace std; 

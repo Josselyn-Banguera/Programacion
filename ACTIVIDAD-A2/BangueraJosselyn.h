@@ -104,9 +104,9 @@ return 0;
 int BangueraJosselynlaedad(){
 	
 int BJ_da,BJ_ma,BJ_aa,BJ_dn,BJ_mn,BJ_an,BJ_a,BJ_m,BJ_d;
-	cout<<"Ingrese la fecha actual: Dia Mes Año :";
+	cout<<"Ingrese la fecha actual: Dia Mes A :";
 	cin>>BJ_da>>BJ_ma>>BJ_aa;
-	cout<<"Ingrese su fecha de nacimiento: Dia Mes Año :";
+	cout<<"Ingrese su fecha de nacimiento: Dia Mes A :";
 	cin>>BJ_dn>>BJ_mn>>BJ_an;
 	if(BJ_da<BJ_dn){
 		BJ_da=BJ_da+30;
@@ -132,7 +132,7 @@ cout<<"//====Archivo: BangueraJosselyn-SumaN.cpp"<<endl;
 cout<<"//====Autor: Banguera Josselyn"<<endl;
 cout<<"//====Fecha de elaboracion: 02-05-2022"<<endl;                            cout<<"//====Fecha de ultima actializacion: 14-05-2022"<<endl;                   cout<<"//================================================"<<endl;
 
-        cout<<"Usted tiene: " <<BJ_a<< "años" <<BJ_m<< "mese" <<BJ_d<< "BJ_y" <<BJ_d<< "dias"<<endl;
+        cout<<"Usted tiene: " <<BJ_a<< "a" <<BJ_m<< "mese" <<BJ_d<< "BJ_y" <<BJ_d<< "dias"<<endl;
         
         
 return 0;
@@ -144,7 +144,7 @@ int BangueraJosselynCuentaMoneda(){
 	
  int BJ_n, BJ_c=0, BJ_c1=0, BJ_c2=0;
        float BJ_x,BJ_a=0, BJ_a1=0, BJ_a2=0;
-       cout<<"¿Cuantas monedas va a ingresar?: ";
+       cout<<"Cuantas monedas va a ingresar: ";
        cin>>BJ_n;
        do{
       cout<<"Ingrese el valor de la moneda (0.10, 0.25): ";
@@ -165,7 +165,9 @@ cout<<"//================================================"<<endl;
 cout<<"//=======Nombre del programa: Suma de dos numeros"<<endl;
 cout<<"//====Archivo: BangueraJosselyn-SumaN.cpp"<<endl;
 cout<<"//====Autor: Banguera Josselyn"<<endl;
-cout<<"//====Fecha de elaboracion: 02-05-2022"<<endl;                            cout<<"//====Fecha de ultima actializacion: 14-05-2022"<<endl;                   cout<<"//================================================"<<endl;
+cout<<"//====Fecha de elaboracion: 02-05-2022"<<endl;                          
+cout<<"//====Fecha de ultima actializacion: 14-05-2022"<<endl;                  
+cout<<"//================================================"<<endl;
 
 
        cout<<"El resultado es :"<<endl;

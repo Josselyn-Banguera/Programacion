@@ -1,6 +1,6 @@
-// Autores: Stalin Francis,
-// Fecha de creación: 2022-05-14
-// Fecha de ultima actualizacion: 2022-05-15
+// Autores: Banguera Josselyn, Carvajar Aldo, Giron Genesis, Mera Sandy 
+// Fecha de creación: 2022-05-15
+// Fecha de ultima actualizacion: 2022-05-20
 
 
 #include<iostream>

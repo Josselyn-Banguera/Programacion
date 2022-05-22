@@ -1,5 +1,5 @@
 //=======Nombre del programa: Punto de venta
-//====Nombre del archivo: AldoCarvajalk-Compara.cpp
+//====Nombre del archivo: AldoCarvajalk-PuntoVenta.cpp
 //====Autor: Carvajal Aldo
 //====Fecha de elaboracion: 03-05-2022
 //====Fecha de ultima actualizacion: 19-05-2022
@@ -30,11 +30,11 @@ int main()
 }else{
 	CA_vt=CA_A+CA_Piva-CA_Pdsc;
 
-//=======Nombre del programa: Punto de venta
-//====Nombre del archivo: AldoCarvajalk-Compara.cpp
-//====Autor: Carvajal Aldo
-//====Fecha de elaboracion: 03-05-2022
-//====Fecha de ultima actualizacion: 19-05-2022
+cout<<"//======Nombre del programa: Punto de venta"<<endl;
+cout<<"//====Nombre del archivo: AldoCarvajalk-PuntoVenta.cpp "<<endl;
+cout<<"//====Autor: Carvajal Aldo "<<endl; 
+cout<<"//====Fecha de elaboracion: 03-05-2022 "<<endl;
+cout<<"//====Fecha de ultima actualizacion: 19-02-2022 "<<endl;
 
 	cout<<"El valor total es de:$ "<<CA_vt<<endl;
 }

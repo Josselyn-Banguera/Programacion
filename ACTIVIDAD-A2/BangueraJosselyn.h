@@ -18,17 +18,18 @@ int BJ_c=0, BJ_n;
          
 		cout<<"Ingrese un numero :";
 		cin>>BJ_x;
-		BJ_c=BJ_c+1;
-		BJ_s=BJ_s+BJ_x;
+		BJ_c=BJ_x+1;
+		BJ_s=BJ_c+BJ_s;
 	}while(BJ_c<BJ_n);
-
-	cout<<"//================================================"<<endl;
+	cout<<"La suma de los numeros es :"<<BJ_s<<endl;
+	
+cout<<endl<<"//================================================"<<endl;
 cout<<"//=======Nombre del programa: Suma de dos numeros"<<endl;
 cout<<"//====Archivo: BangueraJosselyn-SumaN.cpp"<<endl;
 cout<<"//====Autor: Banguera Josselyn"<<endl;
-cout<<"//====Fecha de elaboracion: 02-05-2022"<<endl;                            cout<<"//====Fecha de ultima actializacion: 14-05-2022"<<endl;                   cout<<"//================================================"<<endl;
-
-	cout<<"La suma de los numeros es :"<<BJ_s<<endl;
+cout<<"//====Fecha de elaboracion: 02-05-2022"<<endl;
+cout<<"//====Fecha de ultima actializacion: 14-05-2022"<<endl;
+cout<<endl<<"//================================================"<<endl;
 	
   return 0;
 
@@ -47,17 +48,19 @@ float BJ_A,BJ_B;
 	}else{
 		if(BJ_A<BJ_B){
 
-cout<<"//================================================"<<endl;
-cout<<"//=======Nombre del programa: Suma de dos numeros"<<endl;
-cout<<"//====Archivo: BangueraJosselyn-SumaN.cpp"<<endl;
-cout<<"//====Autor: Banguera Josselyn"<<endl;
-cout<<"//====Fecha de elaboracion: 02-05-2022"<<endl;                            cout<<"//====Fecha de ultima actializacion: 14-05-2022"<<endl;                   cout<<"//================================================"<<endl;
-
 	cout<<"El valor de BJ_A=" <<BJ_A<<" es menor a BJ_B="<<BJ_B<<endl;
 		}else{
 	cout<<"El valor de BJ_B="<<BJ_B<<" es menor a BJ_A="<<BJ_A<<endl;
 		}
 	}
+cout<<endl<<"//================================================"<<endl;
+cout<<"//=======Nombre del programa: Suma de dos numeros"<<endl;
+cout<<"//====Archivo: BangueraJosselyn-SumaN.cpp"<<endl;
+cout<<"//====Autor: Banguera Josselyn"<<endl;
+cout<<"//====Fecha de elaboracion: 02-05-2022"<<endl;
+cout<<"//====Fecha de ultima actializacion: 14-05-2022"<<endl;
+cout<<endl<<"//================================================"<<endl;
+	
 return 0;
 	
 }
@@ -87,26 +90,26 @@ int BJ_c=0, BJ_P;
 }else{
 	BJ_vt=BJ_A+BJ_Piva-BJ_Pdsc;
 
-cout<<"//================================================"<<endl;
+	cout<<"El valor total es de:$ "<<BJ_vt<<endl;
+	
+cout<<endl<<"//================================================"<<endl;
 cout<<"//=======Nombre del programa: Suma de dos numeros"<<endl;
 cout<<"//====Archivo: BangueraJosselyn-SumaN.cpp"<<endl;
 cout<<"//====Autor: Banguera Josselyn"<<endl;
-cout<<"//====Fecha de elaboracion: 02-05-2022"<<endl;                            cout<<"//====Fecha de ultima actializacion: 14-05-2022"<<endl;                   cout<<"//================================================"<<endl;
-
-	cout<<"El valor total es de:$ "<<BJ_vt<<endl;
-}
-
+cout<<"//====Fecha de elaboracion: 02-05-2022"<<endl;
+cout<<"//====Fecha de ultima actializacion: 14-05-2022"<<endl;
+cout<<endl<<"//================================================"<<endl;
 	
-
+}
 return 0;
 }
 
 int BangueraJosselynlaedad(){
 	
 int BJ_da,BJ_ma,BJ_aa,BJ_dn,BJ_mn,BJ_an,BJ_a,BJ_m,BJ_d;
-	cout<<"Ingrese la fecha actual: Dia Mes A :";
+	cout<<"Ingrese la fecha actual: Dia Mes Año :";
 	cin>>BJ_da>>BJ_ma>>BJ_aa;
-	cout<<"Ingrese su fecha de nacimiento: Dia Mes A :";
+	cout<<"Ingrese su fecha de nacimiento: Dia Mes Año :";
 	cin>>BJ_dn>>BJ_mn>>BJ_an;
 	if(BJ_da<BJ_dn){
 		BJ_da=BJ_da+30;
@@ -126,15 +129,16 @@ int BJ_da,BJ_ma,BJ_aa,BJ_dn,BJ_mn,BJ_an,BJ_a,BJ_m,BJ_d;
 	}
 	BJ_a=BJ_aa-BJ_an;
 
-cout<<"//================================================"<<endl;
+        cout<<"Usted tiene: " <<BJ_a<< " años " <<BJ_m<< " meses " <<" y " <<BJ_d<< " dias "<<endl;
+        
+        
+cout<<endl<<"//================================================"<<endl;
 cout<<"//=======Nombre del programa: Suma de dos numeros"<<endl;
 cout<<"//====Archivo: BangueraJosselyn-SumaN.cpp"<<endl;
 cout<<"//====Autor: Banguera Josselyn"<<endl;
-cout<<"//====Fecha de elaboracion: 02-05-2022"<<endl;                            cout<<"//====Fecha de ultima actializacion: 14-05-2022"<<endl;                   cout<<"//================================================"<<endl;
-
-        cout<<"Usted tiene: " <<BJ_a<< "a" <<BJ_m<< "mese" <<BJ_d<< "BJ_y" <<BJ_d<< "dias"<<endl;
-        
-        
+cout<<"//====Fecha de elaboracion: 02-05-2022"<<endl;
+cout<<"//====Fecha de ultima actializacion: 14-05-2022"<<endl;
+cout<<endl<<"//================================================"<<endl;
 return 0;
 
 
@@ -144,41 +148,37 @@ int BangueraJosselynCuentaMoneda(){
 	
  int BJ_n, BJ_c=0, BJ_c1=0, BJ_c2=0;
        float BJ_x,BJ_a=0, BJ_a1=0, BJ_a2=0;
-       cout<<"Cuantas monedas va a ingresar: ";
+       cout<<"¿Cuantas monedas va a ingresar?: ";
        cin>>BJ_n;
        do{
       cout<<"Ingrese el valor de la moneda (0.10, 0.25): ";
       cin>>BJ_x;
-      BJ_c=BJ_c+1;
-      BJ_a=BJ_a+BJ_x;
-      if(BJ_x==0.10){
+		BJ_c = BJ_c+1;
+		BJ_a = BJ_a+BJ_x;
+		if(BJ_x==0.25){
 
-	      BJ_c1=BJ_c1+1;
-	      BJ_a1=BJ_a1+BJ_x;
+			BJ_c1 = BJ_c1+1;
+			BJ_a1 = BJ_x+BJ_a1;
       }else{
-	      BJ_c2=BJ_c2+1;
-	      BJ_a2=BJ_a2+BJ_x;
+			BJ_c2 = BJ_c2+1;
+			BJ_a2 = BJ_a2+BJ_x;
       }
        }while(BJ_c<BJ_n);
-
-cout<<"//================================================"<<endl;
-cout<<"//=======Nombre del programa: Suma de dos numeros"<<endl;
-cout<<"//====Archivo: BangueraJosselyn-SumaN.cpp"<<endl;
-cout<<"//====Autor: Banguera Josselyn"<<endl;
-cout<<"//====Fecha de elaboracion: 02-05-2022"<<endl;                          
-cout<<"//====Fecha de ultima actializacion: 14-05-2022"<<endl;                  
-cout<<"//================================================"<<endl;
-
-
        cout<<"El resultado es :"<<endl;
        cout<<"Cantidad de monedas ingresadas :"<<BJ_c<<endl;
        cout<<"Total del dinero contado :"<<BJ_a<<endl;
-       cout<<"Cantidad de monedas de 0.10ctv ingresadas :"<<BJ_c1<<endl;
-       cout<<"Total del dinero de monedas de 0.10ctv :"<<BJ_a1<<endl;
-       cout<<"Cantidad de monedas de 0.25ctv ingresadas :"<<BJ_c2<<endl;
-       cout<<"Total del dinero de monedas de 0.25ctv :"<<BJ_a2<<endl;
+       cout<<"Cantidad de monedas de 0.10ctv ingresadas :"<<BJ_c2<<endl;
+       cout<<"Total del dinero de monedas de 0.10ctv :"<<BJ_a2<<endl;
+       cout<<"Cantidad de monedas de 0.25ctv ingresadas :"<<BJ_c1<<endl;
+       cout<<"Total del dinero de monedas de 0.25ctv :"<<BJ_a1<<endl;
 
-
+cout<<endl<<"//================================================"<<endl;
+cout<<"//=======Nombre del programa: Suma de dos numeros"<<endl;
+cout<<"//====Archivo: BangueraJosselyn-SumaN.cpp"<<endl;
+cout<<"//====Autor: Banguera Josselyn"<<endl;
+cout<<"//====Fecha de elaboracion: 02-05-2022"<<endl;
+cout<<"//====Fecha de ultima actializacion: 14-05-2022"<<endl;
+cout<<endl<<"//================================================"<<endl;
 
 
 return 0;
@@ -192,7 +192,7 @@ int BangueraJossselynmenu()
 	int op,flag;
 
 	do{
-			system("clear");
+			system("cls");
 			cout<<"**************PROGRAMAS DE BANGUERA JOSSELYN**************"<<endl<<endl;
 			cout<<"1.- SUMA VARIOS NUMEROS \n";
 			cout<<"2.- COMPARA 2 NUMEROS.\n";
@@ -203,27 +203,27 @@ int BangueraJossselynmenu()
 			cout<<" Ingrese una opcion : "; cin>>op; //la variable op siver para la oppcion a escoger
 			switch(op){
 				case 1:
-					system("clear");
+					system("cls");
 					cout<<"\n SUMA VARIOS NUMEROS  "<<endl;
 					 BangueraJosselynSumaN();			
 					break;
 				case 2:
-					system("clear");
+					system("cls");
 					cout<<"\nCOMPARA 2 NUIMEROS ";
 					BangueraJosselynCompara();
 					break;
 				case 3:
-				        system("clear");
+				        system("cls");
 					cout<<"\n PUNTO DE VENTA ";
 					BangueraJosselynPuntoVenta();
 					break;
 				case 4:
-					system("clear");
+					system("cls");
 					cout<<"\n CALCULA LA EDAD ";
 					BangueraJosselynlaedad();
 					break;
 				case 5:
-					system("clear");
+					system("cls");
 					cout<<"\n MAQUINA CUANTA MONEDAS ";
 					BangueraJosselynCuentaMoneda();
 					break;

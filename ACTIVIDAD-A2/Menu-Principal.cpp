@@ -15,10 +15,10 @@ int main()
 	int op,flag;
 
 	do{
-			system("cls");
+			system("clear");
 			cout<<"**************PROGRAMAS**************"<<endl<<endl;
 			cout<<"1.- Trabajos de Banguera Josselyn. \n";
-			cout<<"2.- Trabajos de Carvajal Aldo.\n";
+			cout<<"2.- Trabajos de Carvajal Aldo. \n";
 			cout<<"3.- Trabajos de Geneis Giron. \n"; 
 			cout<<"4.- Trabajos de Mera Sandy. \n";
 			cout<<"0.- Salir del menu. \n";
@@ -29,7 +29,7 @@ int main()
 					BangueraJossselynmenu();			
 					break;
 				case 2:
-					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DE CARVAJAL ALDO ";
+					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DE CARVAJAL ALDO "<<endl;
 					CarvajalAldomenu();
 					break;
 				case 3:

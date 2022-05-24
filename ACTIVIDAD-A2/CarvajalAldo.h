@@ -19,15 +19,17 @@ int CarvajalAldoCompara(){
 	}else{
 		if(CA_A<CA_B){
 
+	cout<<"El valor de CA_A=" <<CA_A<<" es menor a CA_B="<<CA_B<<endl<<endl;
+
+cout<<"//================================================"<<endl;
 cout<<"//=======Nombre de programa: Compara de dos numeros"<<endl;
 cout<<"//====Archivo: AldoCarvajalk-Compara.cpp"<<endl;
 cout<<"//====Autor: Carvajal Aldo"<<endl;
 cout<<"//====Fecha de elaboracion: 03-05-2022"<<endl;
 cout<<"//====Fecha de ultima actualizacion:19-05-2022"<<endl;
+cout<<"//================================================"<<endl;
 
-cout<<"El valor de CA_A=" <<CA_A<<" es menor a CA_B="<<CA_B<<endl;
-		}else{
-	cout<<"El valor de CA_B="<<CA_B<<" es menor a CA_A="<<CA_A<<endl;
+          }else{
 		}
 	}
 	return 0;
@@ -35,7 +37,7 @@ cout<<"El valor de CA_A=" <<CA_A<<" es menor a CA_B="<<CA_B<<endl;
 
 int CarvajalAldoCuentaMoneda(){
 	int CA_n, CA_c=0, CA_c1=0, CA_c2=0;
-	float CA_x, CA_a=0, CA_a1=0, CA_a2=0;
+	float CA_x, CA_a=0, CA_a1=0, CA_a2=0, CA_m=0.10;
 	cout<<"Ingrese la cantida de monedas: ";
 	cin>>CA_n;
 	do{
@@ -43,7 +45,7 @@ int CarvajalAldoCuentaMoneda(){
 	cin>>CA_x;
 	CA_c=CA_c+1;
 	CA_a=CA_a+CA_x;
-	if(CA_x==0.10){
+	if(CA_x==CA_m){
 
 		CA_c1=CA_c1+1;
 		CA_a1=CA_a1+CA_x;
@@ -58,13 +60,15 @@ int CarvajalAldoCuentaMoneda(){
 	cout<<"Monedas ingresadas de 0.10 ctvos es de :"<<CA_c1<<endl;
 	cout<<"Cantidad total de monedas de 0.10 ctvos es de : "<<CA_a1<<endl;
 	cout<<"Monedas ingresadas de 0.25 ctvos es de : "<<CA_c2<<endl;
-	cout<<"Cantidad total de monedas de 0.25 ctvos es de : "<<CA_a2<<endl;
+	cout<<"Cantidad total de monedas de 0.25 ctvos es de : "<<CA_a2<<endl<<endl;
 
+cout<<"//================================================"<<endl;
 cout<<"//=======Nombre del programa: Cuenta Moneda "<<endl;
 cout<<"//====Archivo: AldoCarvajalk-CuebtaMoneda.cpp"<<endl;
 cout<<"//====Autor: Carvajal Aldo"<<endl;
 cout<<"//====Fecha de creacion: 03-05-2022"<<endl;
 cout<<"//====Fecha de ultima actualizacion: 19-05-2022"<<endl;
+cout<<"//================================================"<<endl;
 
 	return (0);
 }
@@ -91,13 +95,16 @@ int CarvajalAldolaedad(){
 	}
 	CA_a=CA_aa-CA_an;
 
+	cout<<"Usted tiene "<<CA_a<<" años "<<CA_m<<" meses  y "<<CA_d<<" dias "<<endl<<endl;
+
+cout<<"//================================================"<<endl;
 cout<<"//=======Nombre del programa: la edad "<<endl;
 cout<<"//====Archivo: AldoCarvajalk-laEdad.cpp "<<endl;
 cout<<"//====Autor: Carvajal Aldo "<<endl;
 cout<<"//====Fecha de creacion: 03-05-2022 "<<endl;
 cout<<"//====Fecha de ultila actualizacion: 19-05-2022 "<<endl;
+cout<<"//================================================"<<endl;
 
-	cout<<"Usted tiene "<<CA_a<<" años "<<CA_m<<" meses  y"<<CA_d<<" dias "<<endl;
 	return(0);
 }
 
@@ -124,13 +131,16 @@ int CarvajalAldoPuntoVenta(){
 }else{
 	CA_vt=CA_A+CA_Piva-CA_Pdsc;
 
+	cout<<"El valor total es de:$ "<<CA_vt<<endl<<endl;
+
+cout<<"//================================================"<<endl;
 cout<<"//======Nombre del programa: Punto de venta"<<endl;
 cout<<"//====Nombre del archivo: AldoCarvajalk-PuntoVenta.cpp "<<endl;
 cout<<"//====Autor: Carvajal Aldo "<<endl;
 cout<<"//====Fecha de elaboracion: 03-05-2022 "<<endl;
 cout<<"//====Fecha de ultima actualizacion: 19-02-2022 "<<endl;
+cout<<"//================================================"<<endl;
 
-	cout<<"El valor total es de:$ "<<CA_vt<<endl;
 }
 return(0);
 }
@@ -148,13 +158,16 @@ int CA_c=0, CA_n;
 		CA_s=CA_s+CA_x;
 	}while(CA_c<CA_n);
 
+	cout<<"La suma de los numeros es :"<<CA_s<<endl<<endl;
+
+cout<<"//================================================"<<endl;
 cout<<"//=======Nombre del programa: Suma de dos numeros"<<endl;
 cout<<"//====Archivo: AldoCarvajalk-SumaN.cpp"<<endl;
 cout<<"//====Autor: Carvajal Aldo"<<endl;
 cout<<"//====Fecha de elaboracion: 03-05-2022"<<endl;
 cout<<"//====Fecha de ultima actializacion: 19-05-2022"<<endl;
+cout<<"//================================================"<<endl;
 
-	cout<<"La suma de los numeros es :"<<CA_s<<endl;
 	return(0);
 }
 
@@ -164,7 +177,7 @@ int CarvajalAldomenu()
 
 	do{
 			system("clear");
-			cout<<"**************PROGRAMAS DE Carvajal Aldo**************"<<endl<<endl;
+			cout<<"**************PROGRAMAS DE CARVAJAL ALDO**************"<<endl<<endl;
 			cout<<"1.- COMPARA DE DOS NUMEROS \n";
 			cout<<"2.- MAQUINA CUENTA MONEDA.\n";
 			cout<<"3.- CALCULA LA EDAD \n";
@@ -175,7 +188,7 @@ int CarvajalAldomenu()
 			switch(op){
 				case 1:
 					system("clear");
-					cout<<"\n Compara 2 nueros ";
+					cout<<"\n Compara 2 numeros "<<endl;
 					CarvajalAldoCompara();
 					break;
 				case 2:
@@ -185,7 +198,7 @@ int CarvajalAldomenu()
 					break;
 				case 3:
 					system("clear");
-					cout<<"\n CALCULA EDAD ";
+					cout<<"\n CALCULA LA EDAD ";
 					CarvajalAldolaedad();
 					break;
 				case 4:

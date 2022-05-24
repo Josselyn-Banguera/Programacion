@@ -7,7 +7,7 @@
 using namespace std;
 #include"BangueraJosselyn.h"
 #include"CarvajalAldo.h"
-
+#include"MeraSandy.h"
 
 int main()
 {
@@ -39,6 +39,8 @@ int main()
 				case 4:
 				
 					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DE MERA SANDY  ";
+				        MeraSandymenu() ;
+				
 					break;
 				
 				}

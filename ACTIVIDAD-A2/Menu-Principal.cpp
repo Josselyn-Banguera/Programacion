@@ -34,10 +34,11 @@ int main()
 					break;
 				case 3:
 					
-					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DE GENESIS GIRON ";
+					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DE GENESIS GIRON "<<endl;
+					GironGenesismenu(); 
 					break;
 				case 4:
-				
+	
 					cout<<"\n AQUI PUEDO REVISAR LOS TRABAJO DE MERA SANDY  ";
 				        MeraSandymenu() ;
 				

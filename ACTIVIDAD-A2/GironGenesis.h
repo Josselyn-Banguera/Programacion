@@ -161,9 +161,11 @@ if(GG_x==0.10){
 }while(GG_c<GG_n);
 
 cout<<"El resultado fue:"<<endl;
-cout<<"Cantidad de monedas ingresadas : "<<GG_c<<endl;     cout<<"Cantidad total en dinero contado : "<<GG_a<<endl;
+cout<<"Cantidad de monedas ingresadas : "<<GG_c<<endl;
+cout<<"Cantidad total en dinero contado : "<<GG_a<<endl;
 cout<<"Cantidad de monedas de 0.10c ingresadas : "<<GG_c1<<
-endl;                                                      cout<<"Cantidad total en dinero de monedas de 0.10cc : "<<G
+endl;
+cout<<"Cantidad total en dinero de monedas de 0.10cc : "<<G
 G_a1<<endl;
 cout<<"Cantidad de monedas de 0.25cc ingresadas : "<<GG_c2<
 <endl;
@@ -195,7 +197,8 @@ cout<<"**************PROGRAMAS DE GIRON GENESIS **************"<<endl<<endl;
 			cout<<"4.- CALCULA LA EDAD. \n";
 			cout<<"5.- MAQUINA CUANTA MONEDA.\n";
 			cout<<"0.- Salir del menu. \n";
-			cout<<" Ingrese una opcion : "; cin>>op; //la variable op siver para la oppcion a escoger
+			cout<<" Ingrese una opcion : "; 
+			cin>>op; //la variable op siver para la oppcion a escoger
 			switch(op){
 				case 1:
 			system("cls");
@@ -236,10 +239,10 @@ cout<<"**************PROGRAMAS DE GIRON GENESIS **************"<<endl<<endl;
 	}while(op!=0);
 
 	cout<<"================================================\n";
-	cout<<"                 Banguera Josselyn               \n";
+	cout<<"                 Giron Genesis              \n";
 	cout<<" Gmail:genesis.giron.lupu@utelvt.edu.ecu  \n";
 	cout<<"=================================================\n";
 
 	return(0);
-
 }
+

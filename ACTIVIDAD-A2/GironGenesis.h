@@ -165,12 +165,9 @@ cout<<"Cantidad de monedas ingresadas : "<<GG_c<<endl;
 cout<<"Cantidad total en dinero contado : "<<GG_a<<endl;
 cout<<"Cantidad de monedas de 0.10c ingresadas : "<<GG_c1<<
 endl;
-cout<<"Cantidad total en dinero de monedas de 0.10cc : "<<G
-G_a1<<endl;
-cout<<"Cantidad de monedas de 0.25cc ingresadas : "<<GG_c2<
-<endl;
+cout<<"Cantidad total en dinero de monedas de 0.10cc : "<<GG_a1<<endl;
+cout<<"Cantidad de monedas de 0.25cc ingresadas : "<<GG_c2<<endl;
 cout<<"Cantidad total en dinero de mpnedas de 0.25cc : "<<GG_a2<<endl;
-
 
 cout<<endl<<"//=========================================="<<endl;
 cout<<"//=======Nombre del programa: CUENTA  MONEDA"<<endl;;
@@ -213,8 +210,9 @@ cout<<"**************PROGRAMAS DE GIRON GENESIS **************"<<endl<<endl;
 				case 3:
 				        system("cls");
 					cout<<"\n PUNTO DE VENTA ";
-					GironGenesisVenta();
+					GironGenesisPuntoVenta();
 					break;
+
 				case 4:
 					system("cls");
 					cout<<"\n CALCULA LA EDAD ";
@@ -245,4 +243,3 @@ cout<<"**************PROGRAMAS DE GIRON GENESIS **************"<<endl<<endl;
 
 	return(0);
 }
-

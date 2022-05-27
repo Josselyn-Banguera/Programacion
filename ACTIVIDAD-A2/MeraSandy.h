@@ -205,7 +205,7 @@ int MeraSandymenu()
 				case 1:
 					system("cls");
 					cout<<"\n SUMA VARIOS NUMEROS  "<<endl;
-					 MeraSsndySumaN();			
+MeraSandySumaN();			
 					break;
 				case 2:
 					system("cls");

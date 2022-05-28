@@ -163,8 +163,7 @@ if(GG_x==0.10){
 cout<<"El resultado fue:"<<endl;
 cout<<"Cantidad de monedas ingresadas : "<<GG_c<<endl;
 cout<<"Cantidad total en dinero contado : "<<GG_a<<endl;
-cout<<"Cantidad de monedas de 0.10c ingresadas : "<<GG_c1<<
-endl;
+cout<<"Cantidad de monedas de 0.10c ingresadas: "<<GG_c1<<endl;
 cout<<"Cantidad total en dinero de monedas de 0.10cc : "<<GG_a1<<endl;
 cout<<"Cantidad de monedas de 0.25cc ingresadas : "<<GG_c2<<endl;
 cout<<"Cantidad total en dinero de mpnedas de 0.25cc : "<<GG_a2<<endl;
